@@ -1,0 +1,58 @@
+/* styles.css */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3E7D8;
+    margin: 0;
+}
+
+table {  
+    width: 30%;
+    border-radius: 20px; /* Round the edges of the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    background-color: #F3E7D8;
+    padding: 20px; /* Add padding inside the table */
+}
+
+td {
+    width: 25%; /* Ensure all cells are the same width */
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #C7B65D;
+    color: #F3E7D8;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0; /* Add space between buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    box-sizing: border-box; /* Include padding and border in width and height */
+}
+
+input[type="button"]:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); /* Adjust width to fit padding */
+    padding: 20px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #C7B65D;
+    border: none;
+    border-radius: 10px; /* Round the edges of the text input */
+    border: 2px solid #C7B65D;
+    margin-bottom: 5px; /* Add space below the text input */
+    box-sizing: border-box; /* Include padding and border in width and height */
+}
+
+.full-width {
+    grid-column: span 4; /* Ensure it spans all columns */
+}
